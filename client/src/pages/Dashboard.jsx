@@ -30,8 +30,9 @@ const Dashboard = () => {
     setHasSearched(true);
 
     try {
+      const apiBase = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5001';
       const endpoint = mode === 'papers' ? '/api/search/papers' : '/api/search/datasets';
-      const response = await axios.get(`http://localhost:5001${endpoint}`, {
+      const response = await axios.get(`${apiBase}${endpoint}`, {
         params: { 
           q: query, 
           limit: 15,

@@ -107,7 +107,8 @@ const Library = () => {
     const selectedGroup = groups.find(g => g.id === selectedGroupId);
 
     try {
-      const response = await axios.post('http://localhost:5001/api/ai/survey', {
+      const apiBase = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5001';
+      const response = await axios.post(`${apiBase}/api/ai/survey`, {
         items: groupItems,
         groupName: selectedGroup ? selectedGroup.name : 'General Vault',
         researchLevel: levelToUse
