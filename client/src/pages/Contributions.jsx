@@ -163,7 +163,7 @@ const Contributions = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-6 pt-32 pb-24 space-y-16 fade-in">
+    <div className="max-w-6xl mx-auto px-6 pt-44 md:pt-32 pb-24 space-y-16 fade-in">
       {/* Ledger View */}
       <div className="space-y-12 animate-in slide-in-from-bottom-5 duration-500">
          {/* Ledger Header */}

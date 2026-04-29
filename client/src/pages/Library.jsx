@@ -148,7 +148,7 @@ const Library = () => {
 
   return (
     <>
-      <div className="max-w-7xl mx-auto px-6 pt-32 pb-24 space-y-12">
+      <div className="max-w-7xl mx-auto px-6 pt-44 md:pt-32 pb-24 space-y-12">
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-10 border-b border-black/5 dark:border-white/5 pb-12 reveal-1">
           <div className="space-y-5">

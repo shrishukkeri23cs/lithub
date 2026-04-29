@@ -4,7 +4,7 @@ import Logo from '../components/Logo';
 
 const Landing = ({ isDarkMode }) => {
   return (
-    <div className="pt-28 pb-12 px-6 min-h-[calc(100vh-100px)] flex flex-col justify-center">
+    <div className="pt-44 md:pt-28 pb-12 px-6 min-h-[calc(100vh-100px)] flex flex-col justify-center">
       <div className="max-w-6xl w-full mx-auto text-center space-y-10">
         {/* Hero Section */}
         <div className="space-y-4">

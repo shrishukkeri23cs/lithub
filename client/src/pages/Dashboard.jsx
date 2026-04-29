@@ -65,7 +65,7 @@ const Dashboard = () => {
   }, [minYear, selectedProviders, mode]);
 
   return (
-    <div className="max-w-7xl mx-auto px-6 pt-24 pb-24 space-y-8 fade-in">
+    <div className="max-w-7xl mx-auto px-6 pt-44 md:pt-24 pb-24 space-y-8 fade-in">
       {/* Search Header */}
       <div className="space-y-4 max-w-6xl">
         <div className="flex items-center space-x-3 text-brand-amber text-sm font-mono tracking-tighter">
